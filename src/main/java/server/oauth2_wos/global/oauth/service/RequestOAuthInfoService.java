@@ -1,6 +1,10 @@
-package server.oauth2_wos;
+package server.oauth2_wos.global.oauth.service;
 
 import org.springframework.stereotype.Component;
+import server.oauth2_wos.global.oauth.common.OAuthProvider;
+import server.oauth2_wos.global.oauth.common.OAuthClient;
+import server.oauth2_wos.global.oauth.common.OAuthInfoResponse;
+import server.oauth2_wos.global.oauth.common.OAuthLoginParams;
 
 import java.util.List;
 import java.util.Map;

@@ -1,9 +1,11 @@
-package server.oauth2_wos;
+package server.oauth2_wos.global.oauth.kako;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import org.springframework.util.LinkedMultiValueMap;
 import org.springframework.util.MultiValueMap;
+import server.oauth2_wos.global.oauth.common.OAuthLoginParams;
+import server.oauth2_wos.global.oauth.common.OAuthProvider;
 
 @Getter
 @NoArgsConstructor

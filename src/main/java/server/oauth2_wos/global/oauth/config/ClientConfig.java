@@ -1,4 +1,4 @@
-package server.oauth2_wos;
+package server.oauth2_wos.global.oauth.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

@@ -1,4 +1,4 @@
-package server.oauth2_wos;
+package server.oauth2_wos.domain.member.domain;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -7,6 +7,7 @@ import jakarta.persistence.Id;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import server.oauth2_wos.global.oauth.common.OAuthProvider;
 
 @Entity
 @Data

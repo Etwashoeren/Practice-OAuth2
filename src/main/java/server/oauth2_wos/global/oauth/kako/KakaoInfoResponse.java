@@ -1,12 +1,14 @@
-package server.oauth2_wos;
+package server.oauth2_wos.global.oauth.kako;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Getter;
+import server.oauth2_wos.global.oauth.common.OAuthInfoResponse;
+import server.oauth2_wos.global.oauth.common.OAuthProvider;
 
 @Getter
 @JsonIgnoreProperties(ignoreUnknown = true) // 필요한 데이터만 추려내기 위해 사용
-public class KakaoInfoResponse implements OAuthInfoResponse{ // 카카오 Developers의 사용자 정보 가져오기를 참고해서 만든 응답값
+public class KakaoInfoResponse implements OAuthInfoResponse { // 카카오 Developers의 사용자 정보 가져오기를 참고해서 만든 응답값
 
     @JsonProperty("kakao_account")
     private KakaoAccount kakaoAccount;

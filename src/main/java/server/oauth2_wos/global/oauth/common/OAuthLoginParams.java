@@ -1,4 +1,4 @@
-package server.oauth2_wos;
+package server.oauth2_wos.global.oauth.common;
 
 import org.springframework.util.MultiValueMap;
 

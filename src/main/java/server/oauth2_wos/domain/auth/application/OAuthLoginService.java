@@ -1,7 +1,14 @@
-package server.oauth2_wos;
+package server.oauth2_wos.domain.auth.application;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
+import server.oauth2_wos.domain.member.domain.Member;
+import server.oauth2_wos.domain.member.repository.MemberRepository;
+import server.oauth2_wos.global.jwt.AuthTokens;
+import server.oauth2_wos.global.jwt.AuthTokensGenerator;
+import server.oauth2_wos.global.oauth.common.OAuthInfoResponse;
+import server.oauth2_wos.global.oauth.common.OAuthLoginParams;
+import server.oauth2_wos.global.oauth.service.RequestOAuthInfoService;
 
 @Service
 @RequiredArgsConstructor

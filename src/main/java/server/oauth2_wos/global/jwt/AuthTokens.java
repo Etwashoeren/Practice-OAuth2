@@ -1,4 +1,4 @@
-package server.oauth2_wos;
+package server.oauth2_wos.global.jwt;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

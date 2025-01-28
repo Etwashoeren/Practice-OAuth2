@@ -1,4 +1,4 @@
-package server.oauth2_wos;
+package server.oauth2_wos.global.oauth.kako;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Getter;

@@ -1,7 +1,8 @@
-package server.oauth2_wos;
+package server.oauth2_wos.global.jwt;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
+import server.oauth2_wos.global.jwt.util.JwtTokenProvider;
 
 import java.util.Date;
 

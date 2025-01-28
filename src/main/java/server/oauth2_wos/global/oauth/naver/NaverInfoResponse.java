@@ -1,13 +1,14 @@
-package server.oauth2_wos;
+package server.oauth2_wos.global.oauth.naver;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Getter;
-import org.apache.catalina.connector.Response;
+import server.oauth2_wos.global.oauth.common.OAuthInfoResponse;
+import server.oauth2_wos.global.oauth.common.OAuthProvider;
 
 @Getter
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class NaverInfoResponse implements OAuthInfoResponse{
+public class NaverInfoResponse implements OAuthInfoResponse {
 
     @JsonProperty("response")
     private Response response;

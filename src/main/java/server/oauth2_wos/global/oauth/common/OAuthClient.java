@@ -1,4 +1,4 @@
-package server.oauth2_wos;
+package server.oauth2_wos.global.oauth.common;
 
 public interface OAuthClient { // OAuth 요쳥을 위한 클래스
     OAuthProvider oAuthProvider(); // Client의 타입 반환
