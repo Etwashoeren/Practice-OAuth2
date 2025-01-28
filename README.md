@@ -7,7 +7,7 @@
 + Spring Web
 + MySQL Database
 + Lombok
-+ JWT
++ JWT 0.12.3
 
 ## 레퍼런스
 https://bcp0109.tistory.com/380
