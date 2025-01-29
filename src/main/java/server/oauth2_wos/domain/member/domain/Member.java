@@ -1,9 +1,6 @@
 package server.oauth2_wos.domain.member.domain;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -22,6 +19,7 @@ public class Member {// 회원 정보를 담는 엔티티
 
     private String nickname;
 
+    @Enumerated(EnumType.STRING)
     private OAuthProvider oAuthProvider;
 
     @Builder
